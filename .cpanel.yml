@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ahmg7698/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp fotopekerjaan.html $DEPLOYPATH
+    - /bin/cp fotosaya.html $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
